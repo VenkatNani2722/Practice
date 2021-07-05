@@ -1,4 +1,4 @@
-
+--------------------------------CREATE TABLE ----------------------------------------------------------------------------------------------
 CREATE TABLE emp (
 empno INT PRIMARY KEY,
 ename VARCHAR(10),
@@ -8,6 +8,8 @@ hiredate DATETIME,
 sal NUMERIC(7,2),
 comm NUMERIC(7,2) NULL,
 dept INT)
+
+-------------------------------- INSERT SCRIPT -------------------------------------------------------------------------------------------
 begin
 insert into emp values
     (1,'JOHNSON','ADMIN',6,'12-17-1990',18000,NULL,4)
